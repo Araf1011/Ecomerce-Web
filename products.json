@@ -1,0 +1,223 @@
+[
+  {
+    "id": 1,
+    "name": "TEAM LIQUID 2026",
+    "category": "Jersey",
+    "team": "Team Liquid",
+    "price": 850.00,
+    "image": "Assets/TL26.webp",
+    "badge": "New Launch",
+    "inStock": true,
+    "description": "The official Team Liquid 2026 esports jersey. Represent your favorite team with this premium quality jersey made for fans and players alike.",
+    "features": [
+      "V cross style",
+      "Sublimation printed",
+      "100% polyester fabric (180GSM)",
+      "Home delivery available all over Bangladesh"
+    ],
+    "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
+    "sleeves": ["Full Sleeve", "Half Sleeve"]
+  },
+  {
+    "id": 2,
+    "name": "T1 2026",
+    "category": "Jersey",
+    "team": "T1",
+    "price": 850.00,
+    "image": "Assets/T126.webp",
+    "badge": "New Launch",
+    "inStock": true,
+    "description": "The iconic T1 2026 jersey worn by the world's best esports athletes. Own a piece of esports history with this premium fan jersey.",
+    "features": [
+      "V cross style",
+      "Sublimation printed",
+      "100% polyester fabric (180GSM)",
+      "Home delivery available all over Bangladesh"
+    ],
+    "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
+    "sleeves": ["Full Sleeve", "Half Sleeve"]
+  },
+  {
+    "id": 3,
+    "name": "SENTINELS 2026",
+    "category": "Jersey",
+    "team": "Sentinels",
+    "price": 850.00,
+    "image": "Assets/SEN26.webp",
+    "badge": "New Launch",
+    "inStock": true,
+    "description": "Brand new season with new faces. The perfect time to bring back our classic Sen City Red for the 2026 Jersey.",
+    "features": [
+      "V cross style",
+      "Sublimation printed",
+      "100% polyester fabric (180GSM)",
+      "Home delivery available all over Bangladesh"
+    ],
+    "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
+    "sleeves": ["Full Sleeve", "Half Sleeve"]
+  },
+  {
+    "id": 4,
+    "name": "PRX DINOMARINE 2026",
+    "category": "Jersey",
+    "team": "Paper Rex",
+    "price": 850.00,
+    "image": "Assets/PRX26.webp",
+    "inStock": true,
+    "description": "Paper Rex DinoMarine 2026 — the wildest jersey design in esports. Bold, energetic, and made for fans who play to win.",
+    "features": [
+      "V cross style",
+      "Sublimation printed",
+      "100% polyester fabric (180GSM)",
+      "Home delivery available all over Bangladesh"
+    ],
+    "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
+    "sleeves": ["Full Sleeve", "Half Sleeve"]
+  },
+  {
+    "id": 5,
+    "name": "VITALITY 2026",
+    "category": "Jersey",
+    "team": "Team Vitality",
+    "price": 850.00,
+    "image": "Assets/VIT26.webp",
+    "inStock": true,
+    "description": "Team Vitality's signature yellow and black jersey for 2026. Stand out from the crowd with Europe's powerhouse team colors.",
+    "features": [
+      "V cross style",
+      "Sublimation printed",
+      "100% polyester fabric (180GSM)",
+      "Home delivery available all over Bangladesh"
+    ],
+    "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
+    "sleeves": ["Full Sleeve", "Half Sleeve"]
+  },
+  {
+    "id": 6,
+    "name": "THE MONGOLZ 2026",
+    "category": "Jersey",
+    "team": "The Mongolz",
+    "price": 850.00,
+    "image": "Assets/mongolz26.webp",
+    "inStock": true,
+    "description": "The Mongolz 2026 jersey — representing Asia's pride on the world stage. Wear the spirit of champions from Mongolia.",
+    "features": [
+      "V cross style",
+      "Sublimation printed",
+      "100% polyester fabric (180GSM)",
+      "Home delivery available all over Bangladesh"
+    ],
+    "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
+    "sleeves": ["Full Sleeve", "Half Sleeve"]
+  },
+  {
+    "id": 7,
+    "name": "G2 ESPORTS PRO 2026",
+    "category": "Jersey",
+    "team": "G2 Esports",
+    "price": 900.00,
+    "image": "Assets/G226.webp",
+    "inStock": true,
+    "description": "G2 Esports Pro 2026 — the signature silver and black jersey of one of the most iconic teams in esports history.",
+    "features": [
+      "V cross style",
+      "Sublimation printed",
+      "100% polyester fabric (180GSM)",
+      "Home delivery available all over Bangladesh"
+    ],
+    "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
+    "sleeves": ["Full Sleeve", "Half Sleeve"]
+  },
+  {
+    "id": 8,
+    "name": "G2 ESPORTS PRESTIGE 2026",
+    "category": "Jersey",
+    "team": "G2 Esports",
+    "price": 950.00,
+    "image": "Assets/G2-26-1.webp",
+    "inStock": true,
+    "description": "Limited edition G2 Esports Prestige jersey for 2026. Premium design with exclusive colorway — only for true G2 fans.",
+    "features": [
+      "V cross style",
+      "Sublimation printed",
+      "100% polyester fabric (180GSM)",
+      "Home delivery available all over Bangladesh"
+    ],
+    "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
+    "sleeves": ["Full Sleeve", "Half Sleeve"]
+  },
+  {
+    "id": 9,
+    "name": "SENTINELS VCT 2025",
+    "category": "Jersey",
+    "team": "Sentinels",
+    "price": 750.00,
+    "image": "Assets/SEN-VCT25.webp",
+    "inStock": true,
+    "description": "Sentinels VCT 2025 jersey — a classic from the previous season. Grab this limited fan edition before it's gone.",
+    "features": [
+      "V cross style",
+      "Sublimation printed",
+      "100% polyester fabric (180GSM)",
+      "Home delivery available all over Bangladesh"
+    ],
+    "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
+    "sleeves": ["Full Sleeve", "Half Sleeve"]
+  },
+  {
+    "id": 10,
+    "name": "FNATIC 2025",
+    "category": "Jersey",
+    "team": "Fnatic",
+    "price": 750.00,
+    "image": "Assets/Fnatic-2025.webp",
+    "badge": "Flash Sale",
+    "inStock": true,
+    "description": "Fnatic 2025 jersey in their legendary orange and black. One of the most recognized esports jerseys in the world.",
+    "features": [
+      "V cross style",
+      "Sublimation printed",
+      "100% polyester fabric (180GSM)",
+      "Home delivery available all over Bangladesh"
+    ],
+    "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
+    "sleeves": ["Full Sleeve", "Half Sleeve"]
+  },
+  {
+    "id": 11,
+    "name": "SENTINELS SUNSET 2025",
+    "category": "Jersey",
+    "team": "Sentinels",
+    "price": 700.00,
+    "image": "Assets/sen25-sunset.webp",
+    "badge": "Flash Sale",
+    "inStock": true,
+    "description": "Sentinels Sunset 2025 — a rare and beautiful jersey from Sentinels' sunset-themed special edition. Currently out of stock.",
+    "features": [
+      "V cross style",
+      "Sublimation printed",
+      "100% polyester fabric (180GSM)",
+      "Home delivery available all over Bangladesh"
+    ],
+    "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
+    "sleeves": ["Full Sleeve", "Half Sleeve"]
+  },
+  {
+    "id": 12,
+    "name": "FLC 2025",
+    "category": "Jersey",
+    "team": "FLC",
+    "price": 800.00,
+    "image": "Assets/FLC25.webp",
+    "inStock": true,
+    "description": "FLC 2025 jersey — supporting the local Bangladesh esports scene. Wear it with pride and represent your home team.",
+    "features": [
+      "V cross style",
+      "Sublimation printed",
+      "100% polyester fabric (180GSM)",
+      "Home delivery available all over Bangladesh"
+    ],
+    "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"],
+    "sleeves": ["Full Sleeve", "Half Sleeve"]
+  }
+]
