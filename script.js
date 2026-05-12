@@ -21,7 +21,6 @@ function showSlide(index) {
     }
 
     // Move the slider left or right using CSS
-    // For example: slide 0 = 0%, slide 1 = -100%, slide 2 = -200%
     let carouselInner = document.querySelector('.carousel-inner');
     carouselInner.style.transform = 'translateX(-' + (slideIndex * 100) + '%)';
 
@@ -67,22 +66,18 @@ function startAutoSlide() {
 
 // SECTION SWITCHING (Home / Jersey / About / Contact)
 
-// This shows or hides sections when the user clicks nav links
 function showSection(sectionName) {
 
-    // Get all sections from the HTML
     let homeSection    = document.getElementById('home');
     let jerseySection  = document.getElementById('jersey');
     let aboutSection   = document.getElementById('about');
     let contactSection = document.getElementById('contact');
 
-    // First hide ALL sections
     homeSection.style.display    = 'none';
     jerseySection.style.display  = 'none';
     aboutSection.style.display   = 'none';
     contactSection.style.display = 'none';
 
-    // Then show only the one the user clicked
     if (sectionName === 'home') {
         homeSection.style.display = 'block';
     }
@@ -100,7 +95,6 @@ function showSection(sectionName) {
         contactSection.style.display = 'block';
     }
 
-    // Scroll to top when switching sections
     window.scrollTo(0,0);
 }
 
@@ -108,9 +102,7 @@ function showSection(sectionName) {
 // LOAD PRODUCTS FROM products.json
 
 
-// This function builds the HTML for a single product card
 function createProductCard(product) {
-    // Build the badge HTML (e.g. "New", "Hot", "Sale")
     let badgeHTML = '';
     if (product.badge) {
         // Convert "Flash Sale" to "flash-sale" for the class name
@@ -127,7 +119,6 @@ function createProductCard(product) {
         cardClass = 'product-card out-of-stock';
     }
 
-    // Build the full card HTML
     // Clicking the card opens product.html with the product's id in the URL
     return '<a href="product.html?id=' + product.id + '" class="product-link">' +
                 '<div class="' + cardClass + '">' +
