@@ -1,8 +1,6 @@
-/* =============================================
-   BACK BUTTON BAR
-   ============================================= */
+/* BACK BUTTON BAR */
 .back-bar {
-    margin-top: 90px; /* space below the fixed header */
+    margin-top: 90px;
     padding: 15px 60px;
     border-bottom: 1px solid #eee;
 }
@@ -24,9 +22,7 @@
 }
 
 
-/* =============================================
-   PRODUCT DETAIL LAYOUT (two columns)
-   ============================================= */
+/* PRODUCT DETAIL LAYOUT  */
 .product-detail {
     display: flex;          /* side by side layout */
     gap: 60px;
@@ -53,11 +49,9 @@
 }
 
 
-/* =============================================
-   RIGHT SIDE — Product Information
-   ============================================= */
+/* RIGHT SIDE — Product Information */
 .detail-info-box {
-    flex: 1;               /* take up the other half */
+    flex: 1;               
 }
 
 /* Product Name */
@@ -87,7 +81,6 @@
     font-weight: 500;
 }
 
-/* Bullet Feature List */
 .detail-features {
     padding-left: 20px;
     margin-bottom: 20px;
@@ -113,9 +106,7 @@
 }
 
 
-/* =============================================
-   SIZE & SLEEVE SELECTORS
-   ============================================= */
+/* SIZE & SLEEVE SELECTORS */
 .detail-options {
     margin-bottom: 16px;
 }
@@ -190,9 +181,7 @@
 }
 
 
-/* =============================================
-   QUANTITY + ACTION BUTTONS ROW
-   ============================================= */
+/*  QUANTITY + ACTION BUTTONS ROW */
 .detail-actions {
     display: flex;
     align-items: center;
@@ -274,9 +263,7 @@
 }
 
 
-/* =============================================
-   RELATED PRODUCTS SECTION
-   ============================================= */
+/* RELATED PRODUCTS SECTION */
 .related-section {
     max-width: 1100px;
     margin: 0 auto 80px;  /* centered, with space below */
