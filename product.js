@@ -5,7 +5,7 @@ let quantity       = 1;
 let currentProduct = null;
 
 function getProductIdFromURL() {
-    // URLSearchParams reads the ?id=3 part of the URL
+    //reads the ?id=3 part of the URL
     let params = new URLSearchParams(window.location.search);
     let id = params.get('id'); // gets the value of "id"
     return Number(id);         // convert "3" (text) to 3 (number)
