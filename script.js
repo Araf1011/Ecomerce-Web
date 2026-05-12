@@ -1,14 +1,9 @@
-// =============================================
-// PART 1: CAROUSEL (Image Slider)
-// =============================================
+// CAROUSEL (Image Slider)
 
-// This keeps track of which slide we are on right now
 let slideIndex = 0;
 
-// This will store the timer for auto-sliding
 let autoSlideTimer;
 
-// This function shows the correct slide on screen
 function showSlide(index) {
 
     // Get all the slides and dots from the HTML
@@ -69,9 +64,8 @@ function startAutoSlide() {
 }
 
 
-// =============================================
-// PART 2: SECTION SWITCHING (Home / Jersey / About / Contact)
-// =============================================
+
+// SECTION SWITCHING (Home / Jersey / About / Contact)
 
 // This shows or hides sections when the user clicks nav links
 function showSection(sectionName) {
@@ -111,9 +105,8 @@ function showSection(sectionName) {
 }
 
 
-// =============================================
-// PART 3: LOAD PRODUCTS FROM products.json
-// =============================================
+// LOAD PRODUCTS FROM products.json
+
 
 // This function builds the HTML for a single product card
 function createProductCard(product) {
@@ -228,9 +221,7 @@ function loadHomeProducts() {
 }
 
 
-// =============================================
-// PART 4: REVIEWS CAROUSEL
-// =============================================
+//  REVIEWS CAROUSEL
 
 let reviewIndex = 0;
 let reviewTimer;
@@ -324,11 +315,8 @@ function startReviewSlide() {
 }
 
 
-// =============================================
-// PART 5: START EVERYTHING WHEN PAGE LOADS
-// =============================================
+//  START EVERYTHING WHEN PAGE LOADS
 
-// This runs as soon as the page finishes loading
 window.onload = function() {
     showSlide(slideIndex); // show the first image carousel slide
     startAutoSlide();      // start the image carousel auto-slide timer

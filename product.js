@@ -1,22 +1,8 @@
-// =============================================
-// product.js — runs on the product detail page
-// =============================================
-
-// STEP 1: Keep track of what the user selected
 let selectedSize   = '';
 let selectedSleeve = '';
 let quantity       = 1;
 
-// Stores the currently displayed product (set in showProductOnPage)
 let currentProduct = null;
-
-
-// =============================================
-// STEP 2: Get the product ID from the URL
-// =============================================
-// When user clicks a product card, the URL becomes:
-// product.html?id=3
-// We read that "3" here to know which product to show
 
 function getProductIdFromURL() {
     // URLSearchParams reads the ?id=3 part of the URL
@@ -26,9 +12,7 @@ function getProductIdFromURL() {
 }
 
 
-// =============================================
-// STEP 3: Fetch products.json and find the right product
-// =============================================
+
 
 function loadProductDetail() {
 
@@ -72,19 +56,17 @@ function loadProductDetail() {
         // If fetch fails, show an error
         .catch(function(error) {
             document.getElementById('product-detail').innerHTML =
-                '<p style="text-align:center; padding:60px; color:red;">Could not load product. Use Live Server!</p>';
+                '<p>Could not load product. RUKOOO ZARAAAA!! </p>';
             console.log('Error:', error);
         });
 }
 
 
-// =============================================
-// STEP 4: Put the product data into the HTML
-// =============================================
+// Put the product data into the HTML
 
 function showProductOnPage(product) {
 
-    // IMPORTANT: Save the product data so addToCart() can use it
+    //Save the product data so addToCart() can use it
     currentProduct = product;
 
     // Set the page title
@@ -203,7 +185,7 @@ function loadRelatedProducts(allProducts, currentProduct) {
 
         // Create the card HTML
         let card = document.createElement('a');
-        card.href = 'product.html?id=' + product.id; // clicking goes to that product page
+        card.href = 'product.html?id=' + product.id;
         card.className = 'product-link';
 
         card.innerHTML =
@@ -308,7 +290,7 @@ function buyNow() {
     alert('Order placed!\nName: ' + name + '\nSize: ' + selectedSize + '\nSleeve: ' + selectedSleeve + '\nQty: ' + quantity);
 }
 
-// START: Run when the page finishes loading
+// Run when the page finishes loading
 
 
 window.onload = function() {
