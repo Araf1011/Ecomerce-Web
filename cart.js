@@ -17,7 +17,7 @@ let appliedDiscount = 0;
 function openCart() {
     document.getElementById('cart-drawer').classList.add('open');
     document.getElementById('cart-overlay').classList.add('show');
-    renderCart(); // always refresh the items when opening
+    renderCart(); // refresh the items when opening
 }
 
 function closeCart() {
@@ -31,13 +31,12 @@ function closeCart() {
 // =============================================
 
 // Get the cart array from localStorage
-// If nothing saved yet, return empty array []
 function getCart() {
     let data = localStorage.getItem('jerseyCart');
     if (data) {
         return JSON.parse(data); // convert saved text back to array
     }
-    return [];
+    return []; //If nothing saved yet, return empty array []
 }
 
 // Save the cart array to localStorage
