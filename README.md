@@ -26,7 +26,6 @@
   - **Dynamic Grids**: Categorized sections for "Flash Sale" and "New Launch".
   - **Detailed Product Pages**: Featuring high-quality zooms, team info, and custom attributes.
   - **Customization**: Option to add custom Name/IGN (In-Game Name) for a personalized touch.
-  - **Smart Filtering**: Sort by latest, popularity, or price.
 
 - **✨ UI/UX Excellence**:
   - Automated hero carousel for featured collections.

@@ -12,7 +12,7 @@
 
 <body>
 
-    <!-- Header (same as main page) -->
+    <!-- Header -->
     <header class="header">
         <a href="index.html" class="logo">Jersey Lagbe</a>
 
@@ -40,55 +40,43 @@
             <i class="fa-solid fa-arrow-left"></i> Back to Products
         </a>
     </div>
-
     <!-- Product Detail Section -->
     <!-- This whole section is filled by product.js -->
     <section class="product-detail" id="product-detail">
-
         <!-- Left Side: Product Image -->
         <div class="detail-image-box">
             <img id="product-image" src="" alt="Product Image">
         </div>
-
         <!-- Right Side: Product Info -->
         <div class="detail-info-box">
-
             <!-- Product Name -->
             <h1 id="product-name" class="detail-name">Loading...</h1>
-
             <!-- Price -->
             <p id="product-price" class="detail-price"></p>
-
             <!-- Description -->
             <p id="product-description" class="detail-description"></p>
-
             <!-- Feature List (bullet points) -->
             <ul id="product-features" class="detail-features"></ul>
-
             <!-- Note -->
             <p class="detail-note">
                 <strong>Note:</strong> This is a Made On-Demand Product. Customer has to pay advance to confirm the order
                 and rest can be paid in cash on delivery. Production may take up to 1/2 weeks before shipping.
             </p>
-
             <!-- Size Selector -->
             <div class="detail-options">
                 <p class="option-label">Size:</p>
                 <div id="size-buttons" class="option-buttons"></div>
             </div>
-
             <!-- Sleeve Selector -->
             <div class="detail-options">
                 <p class="option-label">Sleeve:</p>
                 <div id="sleeve-buttons" class="option-buttons"></div>
             </div>
-
             <!-- Name / IGN Input -->
             <div class="detail-name-input">
                 <label for="customer-name">Name / IGN</label>
                 <input type="text" id="customer-name" placeholder="Enter your name or in-game name">
             </div>
-
             <!-- Quantity + Add to Cart + Buy Now -->
             <div class="detail-actions">
                 <!-- Quantity Stepper -->
@@ -97,33 +85,15 @@
                     <span id="qty-display">1</span>
                     <button onclick="changeQty(1)">+</button>
                 </div>
-
                 <!-- Buttons -->
                 <button class="btn-cart" onclick="addToCart()">ADD TO CART</button>
                 <button class="btn-buy" onclick="buyNow()">BUY NOW</button>
             </div>
-
         </div>
-
-    </section>
-
-    <!-- Related Products Section -->
-    <!-- product.js will fill this grid with other jerseys -->
-    <section class="related-section">
-
-        <h2 class="related-title">Related Products</h2>
-
-        <!-- The cards will be inserted here by product.js -->
-        <div class="related-grid" id="related-grid">
-            <!-- Loading message while fetching -->
-            <p style="text-align:center; padding:20px; color:#888;">Loading...</p>
-        </div>
-
     </section>
 
     <!-- Cart Overlay -->
     <div class="cart-overlay" id="cart-overlay" onclick="closeCart()"></div>
-
     <!-- Cart Drawer -->
     <div class="cart-drawer" id="cart-drawer">
         <div class="cart-drawer-header">
@@ -159,7 +129,6 @@
         </div>
         <button class="cart-checkout-btn">Proceed to Checkout</button>
     </div>
-
     <!-- JS files -->
     <script src="cart.js"></script>
     <script src="product.js"></script>
