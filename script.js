@@ -26,6 +26,11 @@ function showSlide(index) {
     if (slideIndex < 0) {
         slideIndex = slides.length - 1;
     }
+<<<<<<< HEAD
+=======
+
+    // Move the slider left or right using CSS
+>>>>>>> 5918e000936ed509c03c986a4c0f88a89f1fcccc
     let carouselInner = document.querySelector('.carousel-inner');
     carouselInner.style.transform = 'translateX(-' + (slideIndex * 100) + '%)';
     for (let i = 0; i < dots.length; i++) {
@@ -59,16 +64,33 @@ function startAutoSlide() {
     }, 5000);
 }
 
+<<<<<<< HEAD
 // Navigate between page sections
 function showSection(sectionName) {
+=======
+
+
+// SECTION SWITCHING (Home / Jersey / About / Contact)
+
+function showSection(sectionName) {
+
+>>>>>>> 5918e000936ed509c03c986a4c0f88a89f1fcccc
     let homeSection    = document.getElementById('home');
     let jerseySection  = document.getElementById('jersey');
     let aboutSection   = document.getElementById('about');
     let contactSection = document.getElementById('contact');
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5918e000936ed509c03c986a4c0f88a89f1fcccc
     homeSection.style.display    = 'none';
     jerseySection.style.display  = 'none';
     aboutSection.style.display   = 'none';
     contactSection.style.display = 'none';
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5918e000936ed509c03c986a4c0f88a89f1fcccc
     if (sectionName === 'home') {
         homeSection.style.display = 'block';
     }
@@ -82,10 +104,21 @@ function showSection(sectionName) {
     if (sectionName === 'contact') {
         contactSection.style.display = 'block';
     }
+<<<<<<< HEAD
     window.scrollTo(0,0);
 }
 
 // Create HTML for product card
+=======
+
+    window.scrollTo(0,0);
+}
+
+
+// LOAD PRODUCTS FROM products.json
+
+
+>>>>>>> 5918e000936ed509c03c986a4c0f88a89f1fcccc
 function createProductCard(product) {
     let badgeHTML = '';
     if (product.badge) {
@@ -99,6 +132,11 @@ function createProductCard(product) {
     if (!product.inStock) {
         cardClass = 'product-card out-of-stock';
     }
+<<<<<<< HEAD
+=======
+
+    // Clicking the card opens product.html with the product's id in the URL
+>>>>>>> 5918e000936ed509c03c986a4c0f88a89f1fcccc
     return '<a href="product.html?id=' + product.id + '" class="product-link">' +
                 '<div class="' + cardClass + '">' +
                     badgeHTML +

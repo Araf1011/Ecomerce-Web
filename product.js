@@ -5,6 +5,7 @@ let currentProduct = null;
 
 // Get product ID from URL query params
 function getProductIdFromURL() {
+    // URLSearchParams reads the ?id=3 part of the URL
     let params = new URLSearchParams(window.location.search);
     let id = params.get('id'); 
     return Number(id);         

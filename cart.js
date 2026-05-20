@@ -12,20 +12,26 @@ let appliedDiscount = 0;
 function openCart() {
     document.getElementById('cart-drawer').classList.add('open');
     document.getElementById('cart-overlay').classList.add('show');
-    renderCart();
+    renderCart(); // always refresh the items when opening
 }
 function closeCart() {
     document.getElementById('cart-drawer').classList.remove('open');
     document.getElementById('cart-overlay').classList.remove('show');
 }
 
-// LocalStorage utilities
+
+// =============================================
+// READ & WRITE CART FROM LOCALSTORAGE
+// =============================================
+
+// Get the cart array from localStorage
+// If nothing saved yet, return empty array []
 function getCart() {
     let data = localStorage.getItem('jerseyCart');
     if (data) {
         return JSON.parse(data);
     }
-    return [];
+    return []; //If nothing saved yet, return empty array []
 }
 function saveCart(cart) {
     localStorage.setItem('jerseyCart', JSON.stringify(cart));

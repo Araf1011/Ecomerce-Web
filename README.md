@@ -1,4 +1,11 @@
-# Jersey Lagbe ⚽👕
+Project title : E-commerce project ( Jersey Lagbe ) 
+
+Project done by : Md Al Araf Hossain (C241143)
+
+Tashin Kamal (C241138)
+
+
+# Jersey Lagbe 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Language: JS](https://img.shields.io/badge/Language-JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
